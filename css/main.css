@@ -1,2 +1,12 @@
-
+body{
+    margin:0;
+    padding: 0;
+    background-color: #101010;
+}
+.banner-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 136px;
+}
 
