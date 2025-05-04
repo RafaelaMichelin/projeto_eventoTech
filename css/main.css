@@ -89,3 +89,25 @@ background-color: rgba(168, 85, 247, 0.1);
 #next{
     right: 20px;
 }
+
+@keyframes toActive{
+    from {
+        top:100%;
+        opacity: 0;
+    }
+}
+.item.active img.imagemEvento1{
+    animation: toActive 0.5s ease-in-out 1;
+}
+.item.active .titulo1{
+    animation: toActive 0.5s ease-in-out 1;
+}
+.item.active .ano{
+    animation: toActive 0.5s ease-in-out 1;
+}
+.item.active .texto{
+    animation: toActive 0.5s ease-in-out 1;
+}
+.item.active .fundo{
+    animation: toActive 0.5s ease-in-out 1;
+}
