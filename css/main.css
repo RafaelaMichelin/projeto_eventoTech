@@ -9,4 +9,10 @@ body{
     justify-content: space-evenly;
     margin-top: 136px;
 }
+.titulo1{
+    font-family: Montserrat;
+    width:300px;
+    height: auto;
+    margin-top: 30px;
 
+}
