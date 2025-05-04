@@ -33,4 +33,24 @@ body{
     margin-top: -10px;
     
 }
-
+.data-titulo{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.data-titulo h2 {
+    
+    text-align: center;
+    margin: 0;
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Orbitron;
+   color: #FF4C4C;;
+background-color: rgba(168, 85, 247, 0.1);
+    border: 3px solid #FF4C4C; ;
+    border-radius: 5px;
+    
+    
+}
