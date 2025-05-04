@@ -16,3 +16,21 @@ body{
     margin-top: 30px;
 
 }
+.titulo1 h1{
+    color: #f4faf4;
+    font-size: 60px;
+    margin-bottom: 5px;
+    
+}
+.titulo1 .ano{
+
+    font-size: 40px;
+  background: linear-gradient(90deg, #ff0000,#0000ff, #00ff00, #ffff00);
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+    margin-top: -10px;
+    
+}
+
