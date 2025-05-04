@@ -111,3 +111,16 @@ background-color: rgba(168, 85, 247, 0.1);
 .item.active .fundo{
     animation: toActive 0.5s ease-in-out 1;
 }
+.texto 
+{
+    margin-top: 200px;
+    margin-left: 150px;
+     display: flex;
+     flex-direction: column;
+    font-family: Montserrat;
+    color: #faf7f7;
+   width: 70%;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-align: left;
+}
