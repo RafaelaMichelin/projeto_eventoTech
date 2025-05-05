@@ -156,7 +156,13 @@ border:3px solid white;
 
 }
 
-
+.local{
+    
+    margin-left: 100px;
+    margin-top: 15%;
+    font-family: Montserrat;
+    letter-spacing:2px;
+}
 
 .map-responsive {
     position: relative;
