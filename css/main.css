@@ -1,4 +1,4 @@
-/* Começo do CSS*/
+/*começo csss*/
 body{
     margin:0;
     padding: 0;
@@ -85,7 +85,7 @@ header{
     padding: 10px 20px;
     border: 2px solid white;
     transition: background 0.3s, border-color 0.3s;
-    font-size: 10px;
+    font-size: 12px;
   }
   
   .inscreva-btn:hover {
@@ -257,11 +257,11 @@ border:3px solid white;
 
 .map-responsive {
     position: relative;
-    padding-bottom: 70%; /* proporção 16:9 */
+    padding-bottom: 56.25%; /* proporção 16:9 */
     height: 0;
     overflow: hidden;
     margin: 50px auto;
-    max-width: 80%;
+    max-width: 100%;
   }
   
   .map-responsive iframe {
@@ -269,8 +269,85 @@ border:3px solid white;
     top: 0;
     left: 0;
     width: 90%;
-    height: 50%;
+    height: 80%;
     border: 0;
   }
 
 
+
+
+
+
+/*Responsividade*/
+  .banner-content,
+  .palestrantes,
+  .local {
+    max-width: 1200px;
+
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  
+
+  @media screen and (max-width: 768px) {
+    .cabecalho-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a, .inscreva-btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .banner-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 1rem;
+    }
+  
+    .titulo1 h1 {
+      font-size: 38px;
+    }
+  
+    .titulo1 .ano {
+      font-size: 28px;
+    }
+  
+    .data-titulo h2 {
+      width: 100%;
+      font-size: 18px;
+    }
+  
+    .imagemEvento1 {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .texto {
+      margin: 100px auto;
+      width: 100%;
+      font-size: 1rem;
+      text-align: center;
+      
+      margin-left: 0;
+    }
+  
+    .palestrantes, .local {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .map-responsive {
+      padding-bottom: 56.25%; /* 16:9 ratio para mobile */
+      max-width: 100%;
+    }
+  
+    #prev, #next {
+      width: 40px;
+      height: 40px;
+      font-size: large;
+    }
+  }
