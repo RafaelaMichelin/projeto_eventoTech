@@ -1,3 +1,4 @@
+/* Começo do CSS*/
 body{
     margin:0;
     padding: 0;
@@ -5,6 +6,94 @@ body{
     color: #f4faf4;
     font-family: montserrat;
 }
+/* Cabeçalho*/
+header{
+    
+    background-color: #131042;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .cabecalho {
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(#131042);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .cabecalho-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  
+  nav a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background 0.3s;
+    font-size: 11px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #131042;
+  }
+  
+  /* Estilo base dos links normais */
+  .link-nav {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 11px;
+    transition: background 0.3s;
+  }
+  
+  
+  .link-nav::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: width 0.2s;
+  }
+  
+  .link-nav:hover::after,
+  .link-nav:focus::after,
+  .link-nav:active::after {
+    width: 100%;
+  }
+  
+  
+  .inscreva-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    transition: background 0.3s, border-color 0.3s;
+    font-size: 10px;
+  }
+  
+  .inscreva-btn:hover {
+    background-color: #131042;
+    border-color: white;
+  }
+
+/*Banner Principal*/
 .banner-content{
     display: flex;
     flex-direction: row;
@@ -92,6 +181,7 @@ background-color: rgba(168, 85, 247, 0.1);
     right: 20px;
 }
 
+/*Animação*/
 @keyframes toActive{
     from {
         top:100%;
@@ -129,7 +219,7 @@ background-color: rgba(168, 85, 247, 0.1);
     padding-bottom: 40px;
 }
 
-
+/*Seção de palestrantes*/
 .palestrantes{
     margin-left: 100px;
     margin-top: 12%;
@@ -156,6 +246,7 @@ border:3px solid white;
 
 }
 
+/*Seção Local do evento*/
 .local{
     
     margin-left: 100px;
@@ -181,3 +272,5 @@ border:3px solid white;
     height: 50%;
     border: 0;
   }
+
+

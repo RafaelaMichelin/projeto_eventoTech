@@ -1,4 +1,15 @@
+// Função para inscrição 
+function Inscricao() {
+    window.location.href = "inscricoes.html";
+}
 
+function home(){
+    window.location.href = "index.html";
+}
+
+
+
+//variáveis para o botão next e prev
 let list = document.querySelectorAll('.item')
 let next = document.getElementById('next')
 let prev = document.getElementById('prev')
@@ -39,3 +50,7 @@ prev.onclick = () => {
 
 
 console.log(count);
+
+
+
+
