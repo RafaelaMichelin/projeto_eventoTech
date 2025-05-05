@@ -2,6 +2,8 @@ body{
     margin:0;
     padding: 0;
     background-color: #101010;
+    color: #f4faf4;
+    font-family: montserrat;
 }
 .banner-content{
     display: flex;
@@ -115,6 +117,7 @@ background-color: rgba(168, 85, 247, 0.1);
 {
     margin-top: 200px;
     margin-left: 150px;
+    
      display: flex;
      flex-direction: column;
     font-family: Montserrat;
@@ -123,4 +126,52 @@ background-color: rgba(168, 85, 247, 0.1);
     font-size: 1.2rem;
     letter-spacing: 2px;
     text-align: left;
+    padding-bottom: 40px;
 }
+
+
+.palestrantes{
+    margin-left: 100px;
+    margin-top: 12%;
+    font-family: Montserrat;
+    letter-spacing:2px;
+    
+    
+}
+ .palestrante p{
+    color:#007BFF;
+ }
+    
+
+.palestrantes h1{
+    font-size: 32px;
+    
+   
+}
+.palestrante img{
+width: 160px;
+height: 150px;
+border-radius: 50%;
+border:3px solid white;
+
+}
+
+
+
+.map-responsive {
+    position: relative;
+    padding-bottom: 70%; /* proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin: 50px auto;
+    max-width: 80%;
+  }
+  
+  .map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 50%;
+    border: 0;
+  }
